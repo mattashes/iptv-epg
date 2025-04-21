@@ -1,20 +1,25 @@
-# IPTV EPG (Electronic Program Guide)
+# IPTV EPG (Electronic Program Guide) and Playlist
 
-This repository contains an XML-based Electronic Program Guide for IPTV applications.
+This repository contains an XML-based Electronic Program Guide and M3U playlist for IPTV applications.
 
 ## Usage
 
-You can use this EPG with IPTV players by pointing to the raw GitHub URL of the XML file.
+You can use these files with IPTV players by pointing to the raw GitHub URLs:
 
-URL format after pushing to GitHub:
+### EPG (Electronic Program Guide)
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/iptv-epg/main/epg.xml
+https://raw.githubusercontent.com/mattashes/iptv-epg/main/epg.xml
+```
+
+### Playlist
+```
+https://raw.githubusercontent.com/mattashes/iptv-epg/main/no_tvpass_playlist.m3u
 ```
 
 ## Updates
 
-The EPG data is periodically updated.
+The EPG and playlist data are periodically updated.
 
 ## License
 
-This EPG data is provided for personal use only. 
+These files are provided for personal use only. 
